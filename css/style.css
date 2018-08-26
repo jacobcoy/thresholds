@@ -135,3 +135,39 @@ body {
 .body span {
     font-weight: 700;
 }
+
+#films {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    margin-top: -100px;
+}
+
+.film-half-left {
+    display: inline-block;
+    width: 45%;
+    padding-right: 8px;
+}
+
+.film-half-right {
+    display: inline-block;
+    width: 45%;
+    padding-left: 8px;
+/*    background-color: green;*/
+}
+
+.clotheslineimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../media/clothesline.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.twentysixrueimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../media/26rue.jpg);
+    background-size: cover;
+    background-position: center center;
+}
