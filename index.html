@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thresholds film festival</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Thresholds film festival</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash:400,700|Lato:300,400,700" rel="stylesheet">
 </head>
 <body>
-
-<video id="my-video" class="video" muted loop>
-  <source src="media/rain.mp4" type="video/mp4">
-  <source src="media/rain.webm" type="video/webm">
-</video><!-- /video -->
-
-<script>
-(function() {
-  /**
-   * Video element
-   * @type {HTMLElement}
-   */
-  var video = document.getElementById("my-video");
-
-  /**
-   * Check if video can play, and play it
-   */
-  video.addEventListener( "canplay", function() {
-    video.play();
-  });
-})();
-</script>
-
+    <div class="nav-container animated fadeInDown">
+        <p class="logo animated slideInDown">Thresholds</p>
+        <div class="link-container">
+            <ul class="nav-content animated slideInDown"><a href="#festival">The Festival</a></ul><ul class="nav-content animated slideInDown"><a href="#films">Film Lineup</a></ul><ul class="nav-content animated slideInDown"><a href="#locations">Locations</a></ul>
+        </div>
+    </div>
+    
+    <div class="header-image">
+        <div class="threshold-brief-container">
+            <p class="brief-title">Thresholds</p>
+            <p class="brief-copy">Female identity &amp; domesticity in the built environment</p>
+        </div>
+    </div>
+    
+    <div class="main-container"></div>
 </body>
 </html>
