@@ -9,6 +9,12 @@ body {
     padding: 0px;
 }
 
+a:link, a:visited, a:hover, a:link:active, a:visited:active {
+    color: inherit;
+    outline: 0;
+    text-decoration: none;
+}
+
 .nav-container {
     width: 100%;
     height: 60px;
@@ -39,14 +45,12 @@ body {
 .nav-content {
     display: inline-block;
     list-style: none;
-/*    float: right;*/
     text-align: right;
     font-family: 'lato', sans-serif;
     font-weight: 700;
     letter-spacing: 0.5px;
     font-size: 18px;
     color: rgba(255,255,255,0.7);
-/*        color: #22C28C;*/
 }
 
 .nav-content a {
@@ -64,7 +68,7 @@ body {
     display: block;
     width: 100%;
     height: 550px;
-    background-image: url(../media/header-img.jpg);
+    background-image: url(../media/header-5.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -76,7 +80,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-/*    background-color: red;*/
 }
 
 .brief-title {
@@ -111,7 +114,6 @@ body {
     height: 10px;
     width: 10px;
     margin-top: -100px;
-    
 }
 
 .main-title {
@@ -136,6 +138,16 @@ body {
     font-weight: 700;
 }
 
+.body a {
+    text-decoration: underline;
+    transition: all .1s linear;
+}
+
+.body a:hover {
+    text-decoration: none;
+    color: #f16667;
+}
+
 #films {
     position: absolute;
     height: 10px;
@@ -147,13 +159,79 @@ body {
     display: inline-block;
     width: 45%;
     padding-right: 8px;
+    vertical-align: top;
+    margin-bottom: 20px;
 }
 
 .film-half-right {
     display: inline-block;
     width: 45%;
     padding-left: 8px;
-/*    background-color: green;*/
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.film-info-panel {
+    width: 100%;
+    min-height: 240px;
+    background-color: #f16667;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.film-title {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.film-title-body {
+    font-family: 'Lato', cursive;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.film-body {
+    font-family: 'Lato', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fcd2c9;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trailer-btn {
+    max-width: 130px;
+    height: 26px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f16667;
+    background-color: #fcd2c9;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-top: 4px;
+}
+
+.trailer-btn:hover {
+    background-color: white;
+    transition: all .2s linear;
 }
 
 .clotheslineimg {
@@ -162,6 +240,8 @@ body {
     background-image:url(../media/clothesline.jpg);
     background-size: cover;
     background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .twentysixrueimg {
@@ -170,4 +250,57 @@ body {
     background-image:url(../media/26rue.jpg);
     background-size: cover;
     background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pullmanimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../media/pullman-court-paris.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tbcimg {
+    width: 100%;
+    height: 300px;
+    background-image:url(../media/tbc.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#locations {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    margin-top: -100px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+
+.location-title {
+    font-family: 'Cherry Swash', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    color: #f16667;
+    margin: 0;
+    margin-top: 26px;
+    margin-bottom: -10px;
 }
