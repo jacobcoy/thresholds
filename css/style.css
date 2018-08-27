@@ -89,7 +89,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     font-size: 80px;
     margin: 0px;
     padding: 0px;
-    text-shadow: 0px 2px #0d3433;
+/*    text-shadow: 0px 2px #0d3433;*/
 }
 
 .brief-copy {
@@ -100,7 +100,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     margin: 0px;
     padding: 0px;
     text-align: center;
-    text-shadow: 0px 1px #0d3433;
+/*    text-shadow: 0px 1px #0d3433;*/
 }
 
 .main-container {
