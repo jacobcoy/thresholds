@@ -1,5 +1,5 @@
 html {
-    background-color: #ffebe8;
+    background-color: #fce3dd;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -18,7 +18,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 .nav-container {
     width: 100%;
     height: 60px;
-    background-color: #f16667;
+    background-color: #2b706f;
     position: fixed;
 }
 
@@ -89,6 +89,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     font-size: 80px;
     margin: 0px;
     padding: 0px;
+    text-shadow: 0px 3px black;
 }
 
 .brief-copy {
@@ -99,6 +100,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    text-shadow: 0px 1px black;
 }
 
 .main-container {
@@ -119,7 +121,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 .main-title {
     font-family: 'Cherry Swash', cursive;
     font-weight: 400;
-    color: #f16667;
+    color: #2b706f;
     font-size: 40px;
     margin: 0px;
     padding: 0px;
@@ -145,7 +147,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 
 .body a:hover {
     text-decoration: none;
-    color: #f16667;
+    color: #2b706f;
 }
 
 #films {
@@ -174,7 +176,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
 .film-info-panel {
     width: 100%;
     min-height: 240px;
-    background-color: #f16667;
+    background-color: #2b706f;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -219,7 +221,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #f16667;
+    color: #2b706f;
     background-color: #fcd2c9;
     margin: 0;
     padding: 0;
@@ -299,7 +301,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     font-family: 'Cherry Swash', cursive;
     font-size: 26px;
     font-weight: 400;
-    color: #f16667;
+    color: #2b706f;
     margin: 0;
     margin-top: 26px;
     margin-bottom: -10px;
