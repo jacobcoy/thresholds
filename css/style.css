@@ -20,6 +20,7 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     height: 60px;
     background-color: #2b706f;
     position: fixed;
+    z-index: 200;
 }
 
 .logo {
