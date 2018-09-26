@@ -191,6 +191,11 @@ a:link, a:visited, a:hover, a:link:active, a:visited:active {
     border-bottom-right-radius: 10px;
 }
 
+.rounded {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .film-title {
     font-family: 'Cherry Swash', cursive;
     font-size: 24px;
